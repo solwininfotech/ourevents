@@ -1,0 +1,22 @@
+{
+    "name": "solwin/ourevents",
+    "description": "Events Manager extension help you to display latest events to customers/visitors on your website.",
+    "type": "magento2-module",
+    "version": "2.0.9",
+    "authors": [
+        {
+            "name": "Solwin",
+            "email": "stdabhoya@yahoo.com",
+            "homepage": "https://www.solwininfotech.com/",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Solwin\\Ourevents\\": ""
+        }
+    }
+}
